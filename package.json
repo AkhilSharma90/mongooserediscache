@@ -1,8 +1,14 @@
 {
   "name": "mongodb-redis-cache",
   "version": "1.0.5",
-  "description": "",
-  "main": "index.js",
+  "description": "mongodb cache: use redis cache in nodejs and mongodb",
+
+
+  "main": "src/index.js",
+  "repository":{
+    "type": "git",
+    "url": "https://github.com/AkhilSharma90/mongooserediscache.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -26,8 +32,8 @@
     "node cache",
     "nosql"
   ],
-  "author": "",
-  "license": "ISC",
+  "author": "Akhil Sharma",
+  "license": "MIT",
   "dependencies": {
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
